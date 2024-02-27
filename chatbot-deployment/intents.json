@@ -1,0 +1,96 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi", "Hello", "Hey", "Good day", "Greetings"
+      ],
+      "responses": ["Hello! Welcome to team Greek. How can I assist you today?"]
+    },
+    {
+      "tag": "bag_section",
+      "patterns": [
+        "Where is the bag section?", 
+        "Can you guide me to the bags section?", 
+        "I want to see bags"
+      ],
+      "responses": [
+        "The bag section is located on the second floor, aisle 4. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "shoe_section",
+      "patterns": [
+        "Where is the shoe section?", 
+        "Can you guide me to the shoes section?", 
+        "I want to see shoes"
+      ],
+      "responses": [
+        "The shoe section is located on the first floor, aisle 3. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "electronics_section",
+      "patterns": [
+        "Where is the electronics section?", 
+        "Can you guide me to the electronics section?", 
+        "I want to see electronics"
+      ],
+      "responses": [
+        "The electronics section is located on the third floor. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "clothing_section",
+      "patterns": [
+        "Where is the clothing section?", 
+        "Can you guide me to the clothing section?", 
+        "I want to see clothes"
+      ],
+      "responses": [
+        "The clothing section is located on the second floor, aisles 1-4. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "book_section",
+      "patterns": [
+        "Where is the book section?", 
+        "Can you guide me to the books section?", 
+        "I want to see books"
+      ],
+      "responses": [
+        "The book section is located on the fourth floor. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "grocery_section",
+      "patterns": [
+        "Where is the grocery section?", 
+        "Can you guide me to the grocery section?", 
+        "I want to see groceries"
+      ],
+      "responses": [
+        "The grocery section is located on the ground floor, aisles 5-10. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "toy_section",
+      "patterns": [
+        "Where is the toy section?", 
+        "Can you guide me to the toy section?", 
+        "I want to see toys"
+      ],
+      "responses": [
+        "The toy section is located on the third floor, aisle 2. Would you like assistance with anything else?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye", "Goodbye", "See you later", "Farewell","take care","thank you"
+      ],
+      "responses": ["Thank you. Have a great day!"]
+    }
+  ]
+}
+
